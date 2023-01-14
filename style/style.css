@@ -97,10 +97,12 @@ font-size: 20px;
  #feature{
 height: 923px;
 width: 700px;
+margin: auto;
 display: flex;
+align-items: center;
 justify-content: center;
 align-items: center;
-
+gap: 54px;
  }
 
 .imgbox{
