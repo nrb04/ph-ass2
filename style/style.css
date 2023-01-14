@@ -1,3 +1,5 @@
+
+
 *{
     
     font-family: 'Open Sans', sans-serif;
@@ -5,18 +7,16 @@
   }
   .hcontainer{
     height: 1322px;
-    width: 1920px;
-    
     background: rgba(255, 144, 14, 0.1);
 
   }
 .topbar{
-
    display: flex;
-   gap: 1202px;
+   justify-content: space-between;
 }
 .tleft{
-margin-top: 50px;
+  padding-left: 228px;
+    margin-top: 50px;
     font-family: Work Sans;
     font-size: 45px;
     font-weight: 700;
@@ -27,6 +27,7 @@ margin-top: 50px;
 }
 
 .tright{
+  padding-right: 240px;
     margin-top: 63px;
     font-family: 'Work Sans';
     font-style: normal;
@@ -49,6 +50,7 @@ margin-top: 50px;
     text-align: center; 
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 45px;
     width: 862px;
     font-family: Work Sans;
     font-size: 64px;
@@ -59,7 +61,9 @@ margin-top: 50px;
 
  }
  .htxt{
-    margin:auto;
+  margin-bottom: 10px;
+    margin-left:auto;
+    margin-right: auto;
     width: 868px;
     font-family: Work Sans;
     font-size: 16px;
@@ -69,7 +73,21 @@ margin-top: 50px;
     text-align: center;
 
  }
+ .hbutton{
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+  width: 180px;
+  height: 54px;
+  color: white;
+  background: #FF900E;
+  border-radius: 8px;
+  line-height: 23px;
+font-weight: 600;
+font-size: 20px;
+ }
  .himage{
+  margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -77,31 +95,31 @@ margin-top: 50px;
     
  }
  #feature{
+height: 923px;
+width: 700px;
 display: flex;
-height: 950px;
+justify-content: center;
+align-items: center;
+
  }
 
- .imgbox{
+.imgbox{
    display: grid;
    grid-row-gap: 24px;
    grid-column-gap: 24px;
    grid-template-columns: 342px 342px;
    grid-template-rows: 342px 342px;
  }
-.article{
-margin: auto;
-font-family: Work Sans;
-font-size: 45px;
-font-weight: 500;
-line-height: 53px;
-letter-spacing: 0em;
-text-align: left;
 
-font-family: Work Sans;
-font-size: 45px;
+.features_txt{
+font-family: 'Work Sans';
+font-style: normal;
 font-weight: 700;
+font-size: 45px;
 line-height: 53px;
-letter-spacing: 0em;
-text-align: left;
+
+/* Dark 01 */
+
+color: #131313;
 
 }
