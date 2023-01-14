@@ -1,0 +1,107 @@
+*{
+    
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  .hcontainer{
+    height: 1322px;
+    width: 1920px;
+    
+    background: rgba(255, 144, 14, 0.1);
+
+  }
+.topbar{
+
+   display: flex;
+   gap: 1202px;
+}
+.tleft{
+margin-top: 50px;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.tright{
+    margin-top: 63px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    
+    text-align: center;
+    word-spacing: 70px;
+    
+    /* Dark 02 */
+    
+    color: #424242;
+}
+
+
+  .htitle{
+    margin-top: 102px;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 862px;
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    
+
+ }
+ .htxt{
+    margin:auto;
+    width: 868px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+ }
+ .himage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    
+ }
+ #feature{
+display: flex;
+height: 950px;
+ }
+
+ .imgbox{
+   display: grid;
+   grid-row-gap: 24px;
+   grid-column-gap: 24px;
+   grid-template-columns: 342px 342px;
+   grid-template-rows: 342px 342px;
+ }
+.article{
+margin: auto;
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 500;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+
+}
